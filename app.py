@@ -4,6 +4,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import random
 import plotly.express as px
+
 # Set page configuration
 st.set_page_config(
     page_title="Agentic-EWS Demo",
