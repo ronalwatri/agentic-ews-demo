@@ -136,7 +136,7 @@ df_students = generate_sample_data()
 # SECTION 2: PAGE LAYOUT & NAVIGATION
 # ============================================================
 
-st.title("🎓 Agentic-EWS Demo: Early Warning System untuk Vocational Education")
+st.title("🎓 Agentic-EWS Demo: Early Warning System untuk Jurusan Teknologi Informasi - Politeknik Negeri Padang")
 st.markdown("---")
 
 # Sidebar untuk navigation
@@ -505,9 +505,7 @@ elif page == "📈 Advanced Analytics":
 elif page == "🔍 Research Insights":
     st.header("Research Insights & Implications")
     
-    st.markdown("""
-    ## 🎓 Untuk Ph.D. Research dalam AI for Education
-    
+    st.markdown("""    
     ### 1. **Agentic Workflow Effectiveness**
     
     Data dari Agentic-EWS mendemonstrasikan:
@@ -534,28 +532,6 @@ elif page == "🔍 Research Insights":
     - Contextual recommendations based on student profile
     - Built-in explainability (AI explains reasoning)
     - Adaptable ke different institutional contexts
-    
-    ### 3. **Research Questions untuk PhD Dissertation**
-    
-    """)
-    
-    st.info("""
-    **Potential Research Questions:**
-    
-    1. **Methodological:**
-       - How effective is agentic reasoning vs traditional ML untuk multi-factor risk assessment?
-       - What's optimal weight distribution untuk risk factors dalam vocational context?
-       - How to measure explainability dari LLM-based recommendations?
-    
-    2. **Educational Impact:**
-       - Does AI-driven early detection lead to better intervention outcomes?
-       - How does system transparency affect faculty adoption & trust?
-       - Can personalized AI recommendations improve student engagement?
-    
-    3. **Vocational-specific:**
-       - How does work-study balance impact dropout risk differently dalam vocational vs academic programs?
-       - Role of practical skills assessment vs theoretical exams dalam predicting success?
-       - How to optimize LMS design specifically untuk vocational learners?
     """)
     
     st.markdown("---")
@@ -644,24 +620,12 @@ st.markdown("---")
 st.markdown("""
 ### 📚 Demo Information
 
-**Agentic-EWS Version:** 1.0.0 Demo  
+**Agentic-EWS Version TI-PNP:** 1.0.0 Demo  
 **Data Type:** Synthetic (150 students, realistic distributions)  
 **AI Model:** Claude Sonnet 4.5 (agentic reasoning ready)  
 **Framework:** Streamlit + Anthropic API
-
-**For Full Implementation:**
-- Real institutional data integration
-- PostgreSQL backend
-- Production deployment
-- Comprehensive user training
-
-**Next Steps:**
-1. Explore all pages thoroughly
-2. Note any questions atau insights
-3. Download full documentation
-4. Plan local setup jika tertarik
-
 ---
 
-*Demo ini dirancang khusus untuk researcher yang ingin understand AI applications dalam vocational education.*
+*Demo ini dirancang untuk memenuhi luaran Penelitian Dosen Pemula*
+*Dikembangkan oleh: Yerri Kurnia @2026*
 """)
