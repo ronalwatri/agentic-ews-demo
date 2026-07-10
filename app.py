@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import random
-
+import plotly.express as px
 # Set page configuration
 st.set_page_config(
     page_title="Agentic-EWS Demo",
@@ -188,8 +188,10 @@ if page == "📊 Dashboard Overview":
     
     with col2:
         st.subheader("Risk Score Distribution")
-        st.histogram(df_students['Risk_Score'], bins=30)
-    
+        fig = px.histogram(df_students, x='Risk_Score', nbins=20,
+                   title='Distribusi Risk Score',
+                   color_discrete_sequence=['#3498db'])
+st.plotly_chart(fig, use_container_width=True)
     # Risk matrix
     st.markdown("---")
     st.subheader("Daftar Mahasiswa dengan Risiko Tinggi")
