@@ -620,10 +620,10 @@ st.markdown("---")
 st.markdown("""
 ### 📚 Demo Information
 
-*Agentic-EWS Version TI-PNP:** 1.0.0 Demo  
-*Data Type:** Synthetic (150 students, realistic distributions)  
-*AI Model:** Claude Sonnet 4.5 (agentic reasoning ready)  
-*Framework:** Streamlit + Anthropic API
+*Agentic-EWS Version TI-PNP:* 1.0.0 Demo  
+*Data Type:* Synthetic (150 students, realistic distributions)  
+*AI Model:* Claude Sonnet 4.5 (agentic reasoning ready)  
+*Framework:* Streamlit + Anthropic API
 ---
 
 *Demo ini dirancang untuk memenuhi luaran Penelitian Dosen Pemula*
