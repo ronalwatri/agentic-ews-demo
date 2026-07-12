@@ -396,10 +396,10 @@ elif page == "🤖 AI Assistant (Agentic Reasoning)":
             - Kelima mahasiswa ini memerlukan intervensi segera (urgent follow-up dalam 1 minggu)
             - Pola umum: Kombinasi IPK rendah + kehadiran <75% + high work hours
             - **Rekomendasi:**
-              1. Academic counseling untuk understanding challenges
-              2. Time management workshops
-              3. Potentially reduced course load atau modified schedule
-              4. Connection dengan student financial aid untuk discuss work hours
+              1. Bimbingan akademik untuk memahami tantangan
+              2. workshops manajemen waktu
+              3. Kemungkinan pengurangan beban kuliah atau penyesuaian jadwal
+              4. Menghubungi bagian bantuan keuangan mahasiswa untuk membahas jam kerja
             """)
         
         elif "pola" in st.session_state.selected_query:
