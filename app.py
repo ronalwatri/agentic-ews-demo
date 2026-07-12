@@ -622,7 +622,7 @@ st.markdown("""
 
 *Agentic-EWS Version TI-PNP: 1.0.0 Demo*  
 *Data Type: Synthetic (150 students)*  
-*AI Model: * Claude Sonnet 4.5 (agentic reasoning ready)
+*AI Model: Claude Sonnet 4.5 (agentic reasoning ready)*
 *Framework: Streamlit + Anthropic API*
 ---
 
