@@ -327,7 +327,7 @@ elif page == "🤖 AI Assistant (Agentic Reasoning)":
     st.header("Agentic Reasoning: Demonstrasi Autonomous AI Problem-Solving")
     
     st.markdown("""
-    ### 🧠 Tentang Agentic AI dalam Educational Context
+    ### Agentic AI dalam Educational Context
     
     Agentic reasoning memungkinkan AI untuk:
     1. **Autonomous Tool Selection** - Memilih analytical tools yang tepat secara otomatis
@@ -335,10 +335,6 @@ elif page == "🤖 AI Assistant (Agentic Reasoning)":
     3. **Context Awareness** - Mempertimbangkan konteks pedagogical dalam recommendations
     4. **Natural Dialogue** - Berkomunikasi dalam bahasa natural (Bahasa Indonesia)
     
-    **Dalam konteks Educational Technology:**
-    - Mahasiswa dengan risk profile kompleks memerlukan analisis multi-faktor
-    - Traditional rule-based systems kurang fleksibel
-    - LLM-based agents dapat adapt ke konteks individual
     """)
     
     st.markdown("---")
