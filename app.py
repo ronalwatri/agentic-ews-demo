@@ -52,7 +52,7 @@ def generate_sample_data():
     random.seed(42)
     
     students = []
-    programs = ['Teknik Informatika', 'Teknik Elektro', 'Manajemen', 'Akuntansi', 'Perhotelan']
+    programs = ['Teknik Informatika', 'Teknik Elektro', 'Manajemen Informatika', 'Akuntansi', 'Perhotelan']
     
     for i in range(150):
         # Semester 5 atau 6 (typically higher risk groups)
