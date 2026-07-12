@@ -340,7 +340,7 @@ elif page == "🤖 AI Assistant (Agentic Reasoning)":
     st.markdown("---")
     
     # Pre-built query examples untuk demonstration
-    st.subheader("Contoh Query - Cobalah Klik Salah Satu:")
+    st.subheader("Contoh Query - Klik Salah Satu:")
     
     query_examples = {
         "Analisis Risiko Kompleks": "Siapa mahasiswa dengan risiko tertinggi dan apa faktor-faktor utama yang berkontribusi? Berikan ranking top 5.",
