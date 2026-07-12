@@ -183,12 +183,12 @@ if page == "📊 Dashboard Overview":
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("Distribusi Risk Category")
+        st.subheader("Kategori Risiko Distribusi")
         risk_dist = df_students['Risk_Category'].value_counts().sort_index()
         st.bar_chart(risk_dist)
     
     with col2:
-        st.subheader("Risk Score Distribution")
+        st.subheader("Distribusi Skor Risiko")
         fig = px.histogram(df_students, x='Risk_Score', nbins=20,
                    title='Distribusi Risk Score',
                    color_discrete_sequence=['#3498db'])
