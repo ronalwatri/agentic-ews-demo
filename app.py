@@ -625,7 +625,6 @@ st.markdown("""
 *AI Model: Claude Sonnet 4.5 (agentic reasoning ready)*
 *Framework: Streamlit + Anthropic API*
 ---
-
 *Demo ini dirancang untuk memenuhi luaran Penelitian Dosen Pemula*
 *Dikembangkan oleh: Yerri Kurnia @2026*
 """)
